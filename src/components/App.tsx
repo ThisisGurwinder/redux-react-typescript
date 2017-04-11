@@ -8,8 +8,11 @@ export interface AppProps {
 export class App extends React.Component<AppProps, undefined>{
     render() {
         return (
-            <h1>Hello, Rodgers from Movertrip Company :D. We make Frontend with React - TypeScript.
-        A developer C# and Java can working with it</h1>
+            <h1>
+                Hello, i'm Rodgers and come from Movertrip Company.
+                I create new seed for redux-react with typescript.
+                It's familiar with Dev C# Java... Hope you love this.
+            </h1>
         );
     }
 }

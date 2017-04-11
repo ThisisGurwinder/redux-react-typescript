@@ -3,8 +3,8 @@
  Day: 11/04/2017
  **/
 
-export function MakeLocalStorageService(): LocalStorageInterface{
-    return new LocalStorageService();    
+export function MakeLocalStorageService(localStorage?: any): LocalStorageInterface{
+    return new LocalStorageService(localStorage || window.localStorage);    
 }
 
 export interface LocalStorageInterface {
@@ -13,11 +13,11 @@ export interface LocalStorageInterface {
     removeData(key: string): any;
 }
 
-class LocalStorageService implements LocalStorageInterface{
+export class LocalStorageService implements LocalStorageInterface{
     private localStorage: any;
 
-    constructor () {
-        this.localStorage = window.localStorage;
+    constructor (localStorage: any) {
+        this.localStorage = localStorage;
     }
 
     public setData(key: string, data: any){

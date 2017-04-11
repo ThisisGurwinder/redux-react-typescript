@@ -7,13 +7,13 @@ export function MakeFetchService(): FetchInterface{
     return new FetchService();    
 }
 
-interface FetchInterface {
+export interface FetchInterface {
     sendRequest(method: string, url: string, data?: any): any;
 }
 
 export class FetchService implements FetchInterface{
     private headers: any;
-    
+
     constructor () {
         this.headers = new Headers();
         var token = window.localStorage.getItem('auth-token');
