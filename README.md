@@ -16,9 +16,15 @@ npm install
 Now we have 2 env for seed
 
 ### Dev ENV
-`npm run dev`
+```sh
+npm run dev
+//Now you typing http://localhost:5000. You will see 'magic'
+```
 ### Production ENV
-`npm run production`
+```sh
+npm run production
+//Now you typing http://localhost:5000. You will see page static. 
+```
 # Contact
 `email: cptrodgers@gmail.com`
 # Libary use
