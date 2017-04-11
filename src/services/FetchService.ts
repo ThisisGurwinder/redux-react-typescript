@@ -12,21 +12,23 @@ interface FetchInterface {
 }
 
 export class FetchService implements FetchInterface{
+    private headers: any;
     
-    constructor () {}
-
-    public sendRequest(method: string, url: string, data?: any){
-        var headers = new Headers();
+    constructor () {
+        this.headers = new Headers();
         var token = window.localStorage.getItem('auth-token');
         var keyToken = window.localStorage.getItem('key-token');
-        headers.append("Content-Type", "application/json");
+        this.headers.append("Content-Type", "application/json");
         if(token){
-            headers.append(keyToken, token);
+            this.headers.append(keyToken, token);
         };
+    }
+
+    public sendRequest(method: string, url: string, data?: any){
         var bodyData = data ? JSON.stringify(data) : null;
         var init = {
             method: method,
-            headers: headers,
+            headers: this.headers,
             cache: 'default',
             body: bodyData
         };
