@@ -3,14 +3,15 @@
  Day: 11/04/2017
  **/
 
-export function MakeFetchService(){
+export function MakeFetchService(): FetchInterface{
     return new FetchService();    
 }
 
 interface FetchInterface {
+    sendRequest(method: string, url: string, data?: any): any;
 }
 
-class FetchService implements FetchInterface{
+export class FetchService implements FetchInterface{
     
     constructor () {}
 
@@ -30,6 +31,7 @@ class FetchService implements FetchInterface{
             body: bodyData
         };
         return fetch(url, init).then(function(response){
+            console.log(response);
             if(response.status == 200){
                 return response.json();
             };
