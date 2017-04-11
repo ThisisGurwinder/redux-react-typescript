@@ -2,10 +2,13 @@
 I'm fullstack developer about JS. Normal i using AngularJS to build a client web. When i come to DSV company like a developer. It help me know more about React. But when research a example for redux typescript. I see project so hard. I want build a client seed very simple. It use only Redux + React + TypeScript + Webpack + Docker. It's simple and you can add more libary you want and custom this seed. 
 ## Why [Redux](https://github.com/reactjs/redux) + [TypeScript](https://www.typescriptlang.org/) + [Webpack](https://webpack.github.io/) + [Docker](https://www.docker.com/) :
 
-* Typescript so good. It make you can handle code. Write interface,.... of OOP easy. TypeScript have supported for type JSX of React. 
+* Typescript so good. It make you can handle code. Write interface,.... of OOP easy. TypeScript have supported for type JSX of React. We will have a good unit test with TypeScript. If you is a C#, Java developer want know about frontend framework. TypeScript is good for you.
+
 * Redux is a predictable state container for JavaScript apps.It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.
-* Webpack is a bundle libary. After i using grunt. But Grunt not update from 04/2016 and webpack is recommend by react. I think it a good choose for bundle code. We can use it create env, config, and static code so easy.
-* Docker: I use docker to build a Container. It's like CI. Deploy will easy with it. You don't need use pm2,.... 
+
+* Webpack is a bundle libary. Webpack recommend by React. Webpack help your app know Jsx, js, scss, ts, tsx. It really strong and useful.
+
+* Docker: Docker help you build a enviroment, build CI. You can deploy app easy with only 1 command line. 
 # Using
 Clone seed
 ```
