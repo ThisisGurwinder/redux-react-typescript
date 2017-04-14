@@ -8,7 +8,9 @@ I'm fullstack developer about JS. Normal i using AngularJS to build a client web
 
 * Webpack is a bundle libary. Webpack recommend by React. Webpack help your app know Jsx, js, scss, ts, tsx. It really strong and useful.
 
-* Docker: Docker help you build a enviroment, build CI. You can deploy app easy with only 1 command line. 
+* Docker: Docker help you build a enviroment, build CI. You can deploy app easy with only 1 command line.
+
+* SASS: Simple for write beautiful code style for your web application. Better than CSS. 
 # Using
 Clone seed
 ```
@@ -29,6 +31,11 @@ npm run production
 //Now you typing http://localhost:5000. You will see page static. 
 ```
 # Contact
-`email: cptrodgers@gmail.com`
+```
+* email: cptrodgers@gmail.com
+* linkedin: www.linkedin.com/in/nguyen-hien-16aa63121
+* Rodgers - Ho Chi Minh City
+```
 # Libary use
-<img src="https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67" width="200px"><img src="https://facebook.github.io/react/img/logo.svg" width="200px"><img src="https://princetarar.files.wordpress.com/2016/07/typescript-logo-585x200.png?w=640" width="200px"><img src="https://camo.githubusercontent.com/c6ddd9ff94ce584804e95bb55b3f2416dd553843/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313336353838312f313931383337372f34383062326664362d376462632d313165332d386261302d3733346661663331353962382e706e67" width="200px"><img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png" width="200px">
+<img src="https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67" width="200px"><img src="https://facebook.github.io/react/img/logo.svg" width="200px"><img src="https://princetarar.files.wordpress.com/2016/07/typescript-logo-585x200.png?w=640" width="200px"><img src="https://camo.githubusercontent.com/c6ddd9ff94ce584804e95bb55b3f2416dd553843/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313336353838312f313931383337372f34383062326664362d376462632d313165332d386261302d3733346661663331353962382e706e67" width="200px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png" width="200px"><img src="http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" width="200px">
