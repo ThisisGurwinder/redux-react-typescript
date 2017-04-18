@@ -7,10 +7,10 @@
     "dev": "concurrently --kill-others \"npm run watch\" \"npm run start\"",
     "watch": "webpack -p --watch",
     "build": "webpack -p",
-    "production": "npm run build && npm start",
+    "production": "NODE_ENV=production npm run build && npm start",
     "start": "serve"
   },
-  "author": "",
+  "author": "Rodgers",
   "license": "ISC",
   "dependencies": {
     "@types/react": "^15.0.21",
