@@ -8,7 +8,7 @@
     "watch": "webpack -p --watch",
     "build": "webpack -p",
     "production": "NODE_ENV=production npm run build && npm start",
-    "start": "serve"
+    "start": "serve -p 8888"
   },
   "author": "Rodgers",
   "license": "ISC",
