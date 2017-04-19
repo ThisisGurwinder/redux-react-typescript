@@ -22,14 +22,26 @@ Now we have 2 env for seed
 
 ### Dev ENV
 ```sh
+//In terminal typing below code
 npm run dev
-//Now you typing http://localhost:5000. You will see 'magic'
 ```
+Serve redux seed running port 8888.
 ### Production ENV
-```sh
+```sh 
+//In terminal typing below code
 npm run production
-//Now you typing http://localhost:5000. You will see page static. 
 ```
+Serve redux seed running port 8888 and not watch
+### With Dockerfile and Makefile
+I implement Dockerfile and Makefile for easy to build container like a client web in a project. 
+To use docker. You must know docker compose and docker engine. But you can easy see your container with this code.
+```
+sudo docker run -d --name local_registry -p 5000:5000 registry:2
+sudo make build
+```
+You will see container push in a project at port 5000. But if you want use this. You must know docker compose and add some container like nginx proxy container, mongoDB container, backend container. And push 4 container to TCP.
+Docker Engine:  https://docs.docker.com/engine/
+Docker Compose: https://docs.docker.com/compose/reference/build/
 # Contact
 ```
 * email: cptrodgers@gmail.com
