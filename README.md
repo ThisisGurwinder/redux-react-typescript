@@ -14,8 +14,7 @@ I'm fullstack developer about JS. Normal i using AngularJS to build a client web
 # Using
 Clone seed
 ```
-git clone https://github.com/cptrodgers/typescript-react-seed.git
-cd typescript-react-seed
+git clone
 npm install
 ```
 Now we have 2 env for seed
